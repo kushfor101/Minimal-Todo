@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public static ArrayList<ToDoItem> getLocallyStoredData(StoreRetrieveData storeRetrieveData){
+        
+        // comment only for testing purpose
         ArrayList<ToDoItem> items = null;
 
         try {
