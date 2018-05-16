@@ -8,6 +8,7 @@ import android.test.ApplicationTestCase;
  */
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
+    	// testung purpose comment inside branch change
         super(Application.class);
     }
 }
