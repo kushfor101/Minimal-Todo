@@ -594,6 +594,7 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
     private void saveDate(){
+    	// saving date
         try {
             storeRetrieveData.saveToFile(mToDoItemsArrayList);
         } catch (JSONException | IOException e) {
@@ -615,7 +616,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-
+    	// destroying super class first
         super.onDestroy();
         mRecyclerView.removeOnScrollListener(customRecyclerScrollViewListener);
     }
